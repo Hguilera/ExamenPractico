@@ -49,7 +49,7 @@ javac -version
 - `ListaCircularDoble.java`: implementa las operaciones de la lista.
 - `EntradaConsola.java`: ayuda a leer los datos ingresados por el usuario.
 - `Main.java`: contiene el menú principal.
-- `tests/Pruebas.java`: contiene las pruebas automáticas del proyecto.
+- `test/Pruebas.java`: contiene las pruebas automáticas del proyecto.
 
 ## Compilación y ejecución
 
@@ -72,7 +72,7 @@ java -cp out Main
 Para compilar el programa junto con las pruebas, ejecuta:
 
 ```bash
-javac -encoding UTF-8 -d out src/Cancion.java src/Nodo.java src/ListaCircularDoble.java src/EntradaConsola.java src/Main.java tests/Pruebas.java
+javac -encoding UTF-8 -d out src/Cancion.java src/Nodo.java src/ListaCircularDoble.java src/EntradaConsola.java src/Main.java test/Pruebas.java
 ```
 
 Después, ejecuta:
